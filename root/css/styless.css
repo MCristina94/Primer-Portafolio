@@ -1,0 +1,345 @@
+/*principales*/
+html{
+    max-width: 100%;
+    overflow-x: hidden;
+    font-family: 'Ysabeau', sans-serif;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+header{
+    max-width: 100%;
+    overflow-x: hidden;
+}
+main{
+    max-width: 100%;
+    overflow-x: hidden;
+}
+footer{
+    background-color: #9150e1;
+    height: 50vh;
+    width: 100vw;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+body{
+    max-width: 100%;
+    overflow-x: hidden;
+}
+/*header*/
+.cabecera-general{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 8%;
+    margin-right: 5%;
+}
+.cabecera-saludo{
+    display: flex;
+    width: 35%;
+}
+.bt-portafolio{
+    background-color: transparent;
+    border-color: #9150e1;
+    color: #9150e1;
+    height: 25%;    
+    width: 200px;
+    font-weight: bold;
+    font-size: 25px;
+    font-size: 30px;
+    border-radius: 9999px;
+    margin-top: 12%;
+    margin-right: 0%;
+    padding: 0%;
+    font-family: 'Ysabeau', sans-serif;
+    
+}
+.logo1{
+    height: 250px;
+}
+.saludo-port{
+    margin-top: 14%;
+    margin-right: 5%;
+    font-size: 30px;
+    width: 300px;
+    
+}
+
+.saludo-responsive{
+    display: none;/*oculta saludo responsive*/
+}
+/*main*/
+/*main - primera parte (presentación, avatar e imagen)*/
+.h1-responsive{
+    display: none;/*oculta titulo principal responsive*/
+}
+.img-mainResponsive{
+    display: none;/*oculta img responsiveu*/
+}
+
+.h1-desktop{
+    text-align: center;
+    font-weight: bold;
+    font-size: 65px;
+    margin: 0 10% 5% 10%;
+
+}
+.main-part1{
+    margin-top: 5%;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    
+}
+.presentacion1{
+    text-align: center;
+    font-size: 35px;
+    margin: 0 10% 0 10%;
+}
+.foto-avatar-1{
+    text-align: center;
+    margin-top: 5%;
+    
+    
+}
+.foto-avatar{
+    height: 300px;
+    border-radius: 50%;
+}
+.imagen-main{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+    
+}
+.img-main1{
+    width: 100%;
+    margin-bottom: 0%;
+}
+/*main - segunda parte (presentación 2) */
+.presentacion2{
+    background-color: #9150e1;
+   margin: 0;
+   padding: 0;
+   height: 60vh;
+   text-align: center;
+   color: #ffff;
+}
+.h2-saludo{
+    text-align: center;
+    margin: 0 10% 0 10%;
+    padding: 0;
+    font-size: 50px;
+    padding-top: 4%;
+    word-wrap: break-word;
+}
+.p-descripcion{
+    font-size: 20px;
+    padding-left: 30%;
+    padding-right: 30%;
+    padding-top: 2%;
+}
+
+/*main - cards*/
+
+.cards{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    top: -25vh;
+}
+.card{
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 2%;
+    background-color: #ffffff;
+    padding:2% 1%;
+    height: 800px;
+    width: 500px;
+}
+.logo-tecn{
+    width: 200px;
+}
+.h3-card{
+    font-size: 35px;
+    word-wrap: break-word;
+    margin: 0;
+}
+.p-card{
+    word-wrap: break-word;
+    margin: 8%;
+    font-size: 25px;
+}
+
+.h4-card{
+    font-size: 25px;
+    word-wrap: break-word;
+    margin: 0;
+}
+/*main - visualización de proyectos*/
+
+.proyectos{
+    text-align: center;
+    position: relative;
+    top: -15vh;
+}
+
+.h2-proyectos{
+    font-size: 50px;
+}
+.p-proyectos{
+    font-size: 30px;
+}
+.img-proyecto{
+    width: 20vw;
+    border-radius: 10%;
+    margin: 0 20px 0 20px ;
+}
+.fila1-proyectos{
+    display: flex;
+    justify-content:center ;
+    
+}
+
+
+/*Footer*/
+
+.contenedor-logoFooter{
+    text-align: center;
+}
+.logo2{
+    height: 350px;
+    margin: 2% 0;
+
+}
+.h3-footer{
+    font-size: 30px;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 2%;
+    color:#ffffff;
+}
+.iconos{
+    text-align: center;
+    margin-top: 0;
+}
+.fa-brands{
+    width: 50px;
+}
+
+/*Responsive*/
+
+@media (max-width: 1025px) {
+
+.cabecera-general{
+    flex-direction: column;
+    align-items: center; /* Alinea horizontalmente el contenido */
+   justify-content: center; /* Alinea verticalmente el contenido */
+}
+
+.saludo-port, .bt-portafolio{
+    display: none; /*oculta versión desktop de boton y saludo*/
+}
+.cabecera-saludo{
+    width: 300px;
+}
+.saludo-responsive{
+    display: block;
+    margin: 0;
+    width: 300px;
+    text-align: center;
+    font-family: 'Bad Script', cursive;
+}
+.h1-desktop {
+    display: none;/*oculta versión desktop de titulo principal*/
+}
+.h1-responsive{
+    display: block;
+    text-align: center;
+    font-size: 35px;
+}
+
+.presentacion1{
+    font-size: 20px;
+}
+
+.foto-avatar{
+    display: none;
+}
+
+.img-main1{
+    display: none; /*oculta img main principal*/
+}
+.imagen-main{
+    text-align: center;
+    margin: 0;
+    display: block;
+}
+.img-mainResponsive{
+    display: block;
+    width: 60vw;
+    text-align: center;
+    margin: auto;
+}
+
+.h2-saludo{
+    font-size: 25px;
+}
+.p-descripcion{
+    font-size: 18px;
+    padding: 0 15% 0 15%;
+}
+.cards{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    width: 350px;
+    height: 80vh;
+    margin-top: 2%;
+}
+.h3-card{
+    font-size: 20px;
+}
+.p-card{
+    font-size: 20px;
+}
+.h4-card{
+    font-size: 20px;
+}
+
+.h2-proyectos{
+    margin: 0;
+    font-size: 40px;
+}
+.p-proyectos{
+    font-size: 20px;
+    margin: 4%;
+}
+.fila1-proyectos{
+    flex-direction: column;
+}
+
+.img-proyecto{
+    width: 50vw;
+}
+
+.logo2{
+    width: 20vw;
+    height: 20vh;
+    margin: 3% 0 3% 0;
+}
+
+.h3-footer{
+    font-size: 15px;
+}
+.fa-brands{
+    width: 10px;
+    margin: 5%;
+}
+
+footer{
+    height: 40vh;
+}
+
+}
