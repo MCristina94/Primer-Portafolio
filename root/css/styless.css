@@ -1,25 +1,25 @@
 /*principales*/
 html{
     max-width: 100%;
-    overflow-x: hidden;
+    
     font-family: 'Ysabeau', sans-serif;
     max-width: 100%;
-    overflow-x: hidden;
+    
 }
 header{
     max-width: 100%;
-    overflow-x: hidden;
+    
 }
 main{
     max-width: 100%;
-    overflow-x: hidden;
+    
 }
 footer{
     background-color: #9150e1;
-    height: 50vh;
+    height: 38vh;
     width: 100vw;
     max-width: 100%;
-    overflow-x: hidden;
+    
 }
 body{
     max-width: 100%;
@@ -207,12 +207,12 @@ body{
     text-align: center;
 }
 .logo2{
-    height: 350px;
+    height: 15vh;
     margin: 2% 0;
 
 }
 .h3-footer{
-    font-size: 30px;
+    font-size: 25px;
     text-align: center;
     margin: 0;
     margin-bottom: 2%;
